@@ -1,0 +1,9 @@
+name: CI
+on: 
+  push:
+  pull_request:
+
+jobs:
+  test:
+    name: build and unit tests
+    runs-on: ubuntu-lateset
